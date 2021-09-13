@@ -16,7 +16,7 @@ const CONFIG = {
   openInNewTab: true,
 
   // Greetings
-  greetingMorning: 'Bom dia!',
+  greetingMorning: 'Bom dia,',
   greetingAfternoon: 'Boa tarde,',
   greetingEvening: 'Boa noite,',
   greetingNight: 'Vai dormir!',
@@ -49,21 +49,23 @@ const CONFIG = {
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Google Drive',
+      icon: 'hard-drive',
+      link: 'https://drive.google.com/',
+     
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Twitter',
+      icon: 'twitter',
+      link: 'https://twitter.com/',
+     
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'bookmark',
-      link: 'https://reddit.com',
+      name: 'Twitch',
+      icon: 'twitch',
+      link: 'https://twitch.tv/',
     },
     {
       id: '6',
@@ -79,7 +81,7 @@ const CONFIG = {
 
   //Icons
   firstListIcon: 'music',
-  secondListIcon: 'coffee',
+  secondListIcon: 'book-open',
 
   // Links
   lists: {
@@ -103,8 +105,8 @@ const CONFIG = {
     ],
     secondList: [
       {
-        name: 'Twitter',
-        link: 'https://twitter.com/',
+        name: 'Reddit',
+        link: 'https://reddit.com/',
       },
       {
         name: 'WhatsApp',

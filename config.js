@@ -11,26 +11,23 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Gustavo',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'Bom dia!',
+  greetingAfternoon: 'Boa tarde,',
+  greetingEvening: 'Boa noite,',
+  greetingNight: 'Vai dormir!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '6eb5ba8432cfbd18697725398082ce92',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
-  language: 'en', // More languages in https://openweathermap.org/current#multi
-
-  trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  weatherUnit: 'C',
+  weatherLatitude: '-22.314459',
+  weatherLongitude: '-49.058697',
+  
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -70,9 +67,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'YouTube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://youtube.com/',
     },
   ],
 
@@ -106,20 +103,20 @@ const CONFIG = {
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Twitter',
+        link: 'https://twitter.com/',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'WhatsApp',
+        link: 'https://web.whatsapp.com/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'Turing',
+        link: 'https://turing.inf.ufg.br/',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Sigaa',
+        link: 'https://sigaa.sistemas.ufg.br/',
       },
     ],
   },

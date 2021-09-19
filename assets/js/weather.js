@@ -22,25 +22,7 @@ const key = `${CONFIG.weatherKey}`;
 setPosition();
 
 function setPosition(position) {
-  if (!CONFIG.trackLocation || !navigator.geolocation) {
-    if (CONFIG.trackLocation) {
-      console.error('Geolocation not available');
-    }
-    getWeather(CONFIG.defaultLatitude, CONFIG.defaultLongitude);
-    return;
-  }
-  navigator.geolocation.getCurrentPosition(
-    (pos) => {
-      getWeather(
-        pos.coords.latitude.toFixed(3),
-        pos.coords.longitude.toFixed(3)
-      );
-    },
-    (err) => {
-      console.error(err);
       getWeather(CONFIG.defaultLatitude, CONFIG.defaultLongitude);
-    }
-  );
 }
 
 // Get the Weather data

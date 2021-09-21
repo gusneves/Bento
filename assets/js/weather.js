@@ -22,7 +22,7 @@ const key = `${CONFIG.weatherKey}`;
 setPosition();
 
 function setPosition(position) {
-      getWeather(CONFIG.defaultLatitude, CONFIG.defaultLongitude);
+      getWeather(CONFIG.weatherLatitude, CONFIG.weatherLongitude);
 }
 
 // Get the Weather data
